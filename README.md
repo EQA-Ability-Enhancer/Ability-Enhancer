@@ -1,1 +1,3 @@
-# EQA---Ability-Enhancer
+# EQA - Ability Enhancer 
+
+-fictional startup-
