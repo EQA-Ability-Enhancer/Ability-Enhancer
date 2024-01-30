@@ -1,17 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap");
 /* font-family: 'Maven Pro', sans-serif;
 font-family: 'Michroma', sans-serif;*/
 
-*{
-    font-size: 62.5%;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
+/* reset */
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
 }
 
+/* generic */
+html {
+  background-color: 00040F;
+}
 
+h1,
+h2,
+h3 {
+  font-family: "Maven Pro", sans-serif;
+}
 
-.container{
-    max-width: 168rem;
+p {
+  font-family: "Michroma", sans-serif;
+}
+
+.container {
+  max-width: 168rem;
 }
