@@ -31,19 +31,17 @@ p {
 header{
     background: linear-gradient(
     to bottom,
-    #022648 0%,
+    hsl(209, 95%, 15%) 50%,
     hsla(206, 70%, 70%, 0) 100%
   );
-    height: 9.44rem;
+    height: 6rem;
 }
 
-/* Liste menu */
 .menu{
     display: flex;
     justify-content: space-between;
     height: inherit;
     max-width: 180.5rem;
-    max-height: 9.44rem;
     margin: 0 auto;
     align-items: center;
 }
@@ -55,35 +53,41 @@ header{
     align-items: center;
 }
 
-.menu ol {
+.menu li {
     display: inline-block;
     padding: 0rem 1.25rem;
 }
        
-.menu ol a {
+.menu li a {
     transition: all 0.3s ease 0s;
     font-size: 1.4rem;
 }
        
-.menu ol a:hover {
+.menu li a:hover {
     color: #0088a9;
 }
 
-/* Petit logo de la société a droite dans le menu */
+
 .taille-logo-nav{
-    width: 2.6rem;
+    width: 2.2rem;
 }
 
-/* Logo de fléche vers le bas a gauche dans le menu */
 .ligne-bas{
     padding-bottom: 0.8rem;
     padding-left: 0.3rem;
 }
 
-/* Logo de la société a gauche dans le menu */
 .image-menu-logo{
-    width: 5rem;
-    margin-left: 6.1rem ;
+    width: 3rem;
+}
+
+@media (max-width: 1920px){
+
+    .image-menu-logo{
+        width: 3rem;
+        margin-left: 6.1rem;
+    }
+    
 }
 
 
