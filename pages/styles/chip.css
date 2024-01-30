@@ -3,6 +3,7 @@
 font-family: 'Michroma', sans-serif;*/
 
 *{
+    font-size: 62.5%;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -12,5 +13,5 @@ font-family: 'Michroma', sans-serif;*/
 
 
 .container{
-    max-width: 1680px;
+    max-width: 168rem;
 }
