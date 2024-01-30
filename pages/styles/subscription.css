@@ -2,6 +2,7 @@
 /* font-family: 'Maven Pro', sans-serif;
 font-family: 'Michroma', sans-serif;*/
 
+/*Reset CSS*/
 *{
     font-size: 62.5%;
     box-sizing: border-box;
@@ -10,8 +11,74 @@ font-family: 'Michroma', sans-serif;*/
     text-decoration: none;
 }
 
+/* generic */
+html {
+    background-color: #00040F;
+  }
+  
+  h1,h2,h3,a {
+    font-family: "Maven Pro", sans-serif;
+  }
+  
+  p {
+    font-family: "Michroma", sans-serif;
+}
 
+/*Background du menu*/
+header{
+    background-color: #022648;
+    height: 9.44rem;
+}
 
+.fa-regular{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    color: white;
+    max-width: 180.5rem;
+    max-height: 9.44rem;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu-list{
+    display: flex;
+    width: 63.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 400;
+    color: white;
+}
+
+.menu-header{
+   
+}
+
+.image-menu-logo{
+    width: 5.6rem;
+    margin-left: 6.1rem ;
+}
+
+/*Container main 1680px = 168rem*/
 .container{
     max-width: 168rem;
+    margin: 0 auto;
+}
+
+    
+.menu ol {
+    display: inline-block;
+    padding: 0rem 1.25rem;
+}
+    
+.menu ol a {
+    transition: all 0.3s ease 0s;
+}
+    
+.menu ol a:hover {
+    color: #0088a9;
 }
