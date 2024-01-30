@@ -58,26 +58,25 @@ p {
 }
 
 /*Background du menu + menu*/
-header {
+header{
   background: linear-gradient(
-    to bottom,
-    #022648 0%,
-    hsla(206, 70%, 70%, 0) 100%
-  );
-  height: 9.44rem;
+  to bottom,
+  hsl(209, 95%, 15%) 50%,
+  hsla(206, 70%, 70%, 0) 100%
+);
+  height: 6rem;
 }
 
-.menu {
+.menu{
   display: flex;
   justify-content: space-between;
   height: inherit;
   max-width: 180.5rem;
-  max-height: 9.44rem;
   margin: 0 auto;
   align-items: center;
 }
 
-.menu-list {
+.menu-list{
   display: flex;
   width: 63.5rem;
   justify-content: space-evenly;
@@ -88,27 +87,37 @@ header {
   display: inline-block;
   padding: 0rem 1.25rem;
 }
-
+     
 .menu li a {
   transition: all 0.3s ease 0s;
   font-size: 1.4rem;
 }
-
+     
 .menu li a:hover {
   color: #0088a9;
 }
 
-.taille-logo-nav {
-  width: 2.6rem;
+
+.taille-logo-nav{
+  width: 2.2rem;
 }
 
-.ligne-bas {
+.ligne-bas{
   padding-bottom: 0.8rem;
   padding-left: 0.3rem;
 }
 
-.image-menu-logo {
-  width: 5rem;
+.image-menu-logo{
+  width: 3rem;
+}
+
+@media (max-width: 1920px){
+
+  .image-menu-logo{
+      width: 3rem;
+      margin-left: 6.1rem ;
+  }
+  
 }
 
 /* Wecome to the Future */
