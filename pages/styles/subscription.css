@@ -9,6 +9,7 @@ font-family: 'Michroma', sans-serif;*/
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    list-style: none;
 }
 
 /* generic */
@@ -20,14 +21,13 @@ h1,h2,h3, a {
     font-family: "Maven Pro", sans-serif;
     font-size: 1rem;
     color: white;
-    text-decoration: none;
 }
   
 p {
     font-family: "Michroma", sans-serif;
 }
 
-/*Background du menu*/
+/*Background du menu + menu*/
 header{
     background: linear-gradient(
     to bottom,
@@ -37,10 +37,7 @@ header{
     height: 9.44rem;
 }
 
-.fa-regular{
-    color: white;
-}
-
+/* Liste menu */
 .menu{
     display: flex;
     justify-content: space-between;
@@ -48,7 +45,6 @@ header{
     max-width: 180.5rem;
     max-height: 9.44rem;
     margin: 0 auto;
-    list-style: none;
     align-items: center;
 }
 
@@ -59,36 +55,40 @@ header{
     align-items: center;
 }
 
+.menu ol {
+    display: inline-block;
+    padding: 0rem 1.25rem;
+}
+       
+.menu ol a {
+    transition: all 0.3s ease 0s;
+    font-size: 1.4rem;
+}
+       
+.menu ol a:hover {
+    color: #0088a9;
+}
+
+/* Petit logo de la société a droite dans le menu */
 .taille-logo-nav{
     width: 2.6rem;
 }
 
+/* Logo de fléche vers le bas a gauche dans le menu */
+.ligne-bas{
+    padding-bottom: 0.8rem;
+    padding-left: 0.3rem;
+}
+
+/* Logo de la société a gauche dans le menu */
 .image-menu-logo{
     width: 5rem;
     margin-left: 6.1rem ;
 }
 
-/*Container main 1680px = 168rem*/
+
+/*Container main 1680px = 168rem BODY*/
 .container{
     max-width: 168rem;
     margin: 0 auto;
-}
-
-.ligne-bas{
- padding-bottom: 0.8rem;
- padding-left: 0.3rem;
-}
-    
-.menu ol {
-    display: inline-block;
-    padding: 0rem 1.25rem;
-}
-    
-.menu ol a {
-    transition: all 0.3s ease 0s;
-    font-size: 1.4rem;
-}
-    
-.menu ol a:hover {
-    color: #0088a9;
 }
