@@ -16,13 +16,13 @@ html {
     background-color: #00040F;
 }
   
-h1,h2,h3, a {
+h1,h2,h3,a {
     font-family: "Maven Pro", sans-serif;
     font-size: 1rem;
     color: white;
 }
   
-p {
+p,h4 {
     font-family: "Michroma", sans-serif;
     color: #6a6c75;
     font-size: 1.6rem;
@@ -89,7 +89,7 @@ header {
 .container{
     max-width: 168rem;
     margin: 0 auto;
-    height: 55555rem;
+    /*height: 555rem;*/
 }
 
 .flex-freetrail{
@@ -144,3 +144,107 @@ header {
     position: absolute;
     right: 0;
 }
+
+
+/* footer */
+footer {
+    height: 74rem;
+    background-color: black;
+  }
+  
+  footer h3 {
+    margin-top: 2rem;
+  }
+  
+  .footerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 74rem;
+  }
+  
+  footer h4 {
+    font-size: 2.4rem;
+  }
+  
+  /* #leftFooter {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  .footerLeftFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+  
+  .footerLeftFlex p {
+    width: 30rem;
+  }
+  
+  .footerLeftFlex div {
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+  }
+  
+  .footerLeftFlex a {
+    text-decoration: underline;
+    font-size: 2rem;
+    color: #6a6c75;
+    font-family: "Michroma", sans-serif;
+  }
+  
+  #whiteBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78.3rem;
+    height: 66rem;
+    background-color: rgb(233, 233, 233);
+    padding: 5rem;
+    border-radius: 10px;
+  }
+  
+  #whiteBox h3 {
+    margin-right: 20rem;
+  }
+  
+  #buttonContact {
+    padding: 2.4rem 2.4rem;
+    background-color: #3b81c1;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  
+  .surnameFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .blackText {
+    color: black;
+  }
+  
+  .footerInput {
+    font-size: 1.6rem;
+    border-radius: 10px;
+    border: 0;
+    font-family: "Michroma", sans-serif;
+  }
+  
+  .tinyInput {
+    height: 6rem;
+    width: 33.8rem;
+  }
+  
+  .largeInput {
+    height: 6rem;
+    width: 68.7rem;
+  }
+  
+  .bigInput {
+    height: 15.6rem;
+    width: 68.7rem;
+  }
