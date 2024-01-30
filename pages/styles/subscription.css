@@ -28,14 +28,14 @@ p {
 }
 
 /*Background du menu + menu*/
-header{
+header {
     background: linear-gradient(
-    to bottom,
-    hsl(209, 95%, 15%) 50%,
-    hsla(206, 70%, 70%, 0) 100%
-  );
+      to bottom,
+      hsl(209, 95%, 15%) 7%,
+      hsla(206, 70%, 70%, 0) 100%
+    );
     height: 6rem;
-}
+  }
 
 .menu{
     display: flex;
@@ -79,15 +79,6 @@ header{
 
 .image-menu-logo{
     width: 3rem;
-}
-
-@media (max-width: 1920px){
-
-    .image-menu-logo{
-        width: 3rem;
-        margin-left: 6.1rem;
-    }
-    
 }
 
 
