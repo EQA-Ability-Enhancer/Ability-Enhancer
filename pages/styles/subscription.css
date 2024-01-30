@@ -25,17 +25,19 @@ h1,h2,h3, a {
   
 p {
     font-family: "Michroma", sans-serif;
+    color: #40424b;
+    font-size: 1.6rem;
 }
 
 /*Background du menu + menu*/
-header{
+header {
     background: linear-gradient(
-    to bottom,
-    hsl(209, 95%, 15%) 50%,
-    hsla(206, 70%, 70%, 0) 100%
-  );
+      to bottom,
+      hsl(209, 95%, 15%) 7%,
+      hsla(206, 70%, 70%, 0) 100%
+    );
     height: 6rem;
-}
+  }
 
 .menu{
     display: flex;
@@ -67,7 +69,6 @@ header{
     color: #0088a9;
 }
 
-
 .taille-logo-nav{
     width: 2.2rem;
 }
@@ -81,18 +82,46 @@ header{
     width: 3rem;
 }
 
-@media (max-width: 1920px){
-
-    .image-menu-logo{
-        width: 3rem;
-        margin-left: 6.1rem;
-    }
-    
-}
-
 
 /*Container main 1680px = 168rem BODY*/
 .container{
     max-width: 168rem;
     margin: 0 auto;
+}
+
+.spaceBetween{
+    margin: 10rem auto;
+}
+
+.flex-freetrail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-freetrail{
+    font-size: 7.2rem;
+    font-weight: 700;
+}
+
+.generation{
+    font-size: 7.2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#DEF9FA, #33BBCF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trial{
+    display: inline;
+}
+
+.freetrial{
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+strong{
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.6rem;
 }
