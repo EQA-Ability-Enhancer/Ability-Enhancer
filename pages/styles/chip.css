@@ -70,6 +70,8 @@ header {
     hsla(206, 70%, 70%, 0) 100%
   );
   height: 6rem;
+  position: sticky;
+  top: 0;
 }
 
 .menu {
