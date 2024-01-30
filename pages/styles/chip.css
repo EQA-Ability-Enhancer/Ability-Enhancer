@@ -13,12 +13,14 @@ font-family: 'Michroma', sans-serif;*/
 
 /* generic */
 html {
-  background-color: 00040F;
+  background-color: #00040f;
+  color: white;
 }
 
 h1,
 h2,
-h3 {
+h3,
+a {
   font-family: "Maven Pro", sans-serif;
 }
 
@@ -28,4 +30,19 @@ p {
 
 .container {
   max-width: 168rem;
+  margin: 0 auto;
+}
+
+/* Wecome to the Future */
+h1 {
+  font-size: 7.2rem;
+}
+
+p {
+  font-size: 2.4rem;
+}
+
+main img {
+  max-width: 81.6rem;
+  max-height: 76.1rem;
 }
