@@ -39,7 +39,7 @@ h3 {
 p {
   font-family: "Michroma", sans-serif;
   font-size: 2rem;
-  color: #6a6c75;
+  color: white;
 }
 
 .container {
@@ -233,7 +233,6 @@ footer h4 {
 .footerLeftFlex a {
   text-decoration: underline;
   font-size: 2rem;
-  color: #6a6c75;
   font-family: "Michroma", sans-serif;
 }
 
