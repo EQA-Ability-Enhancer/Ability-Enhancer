@@ -136,6 +136,7 @@ header {
     font-size: 7.2rem;
     font-weight: 700;
     background: -webkit-linear-gradient(#DEF9FA, #33BBCF);
+    /*background-clip:content-box;*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
