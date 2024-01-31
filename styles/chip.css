@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 p {
@@ -196,6 +196,7 @@ footer {
 
 footer h3 {
   margin-top: 2rem;
+  font-size: 4rem;
 }
 
 .footerFlex {
@@ -313,6 +314,6 @@ textarea:focus {
 
 @media only screen and (max-width: 1510px) {
   .footerLeftFlex div {
-    padding-bottom: 0;
+    padding-bottom: 0.5rem;
   }
 }
