@@ -15,6 +15,7 @@
 html {
     background: url(../assets/img/bg/bg.png);
     background-size: cover;
+    background-color: black;
 }
   
 h1,h2,h3,a {
