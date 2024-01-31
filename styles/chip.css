@@ -287,16 +287,15 @@ footer h4 {
   border: 0;
   font-family: "Michroma", sans-serif;
   text-indent: 1rem;
+  width: 68rem;
 }
 
 .tinyInput {
   height: 6rem;
-  width: 33.8rem;
 }
 
 .largeInput {
   height: 6rem;
-  width: 68rem;
 }
 
 input:focus {
