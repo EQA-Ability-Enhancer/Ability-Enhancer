@@ -67,7 +67,7 @@ header {
     color: #2ad0fa;
 }
 
-.taille-logo-nav{
+.width-logo-nav{
     width: 2.2rem;
 }
 
@@ -250,6 +250,10 @@ header {
   margin: 3.2rem auto;
 }
 
+.FAQ img{
+  display: list-item
+}
+
 .title-faq{
   background-color: rgba(176, 185, 209, 0.30);
   display: flex;
@@ -263,24 +267,19 @@ header {
   font-size: 3.8rem;
 }
 
-.image-faq:target{
-  background-color: #2ad0fa;
-}
-
-.click-plus-faq{
-  /*display: none;*/
+/*.click-plus-faq{
   padding: 3.2rem;
   border-bottom: 1px solid rgba(176, 185, 209, 0.30);
   border-left: 1px solid rgba(176, 185, 209, 0.30);
   border-right: 1px solid rgba(176, 185, 209, 0.30);
   border-radius: 0rem 0rem 2rem 2rem;
-}
+}*/
 
-.FAQ p{
+/*.FAQ p{
   font-size: 2.4rem;
   letter-spacing: 0.096rem;
   max-width: 1200px;
-}
+}*/
 
 
 
