@@ -19,14 +19,12 @@ html {
   
 h1,h2,h3,a {
     font-family: "Maven Pro", sans-serif;
-    font-size: 1rem;
     color: white;
 }
   
 p,h4 {
     font-family: "Michroma", sans-serif;
     color: white;
-    font-size: 1.6rem;
 }
 
 
@@ -62,11 +60,11 @@ header {
        
 .menu li a {
     transition: all 0.3s ease 0s;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
        
 .menu li a:hover {
-    color: #0088a9;
+    color: #2ad0fa;
 }
 
 .taille-logo-nav{
@@ -258,14 +256,19 @@ header {
   padding: 32px;
   justify-content: space-between;
   align-items: center;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .FAQ h3{
   font-size: 3.8rem;
 }
 
-.click-plus-faq:hover{
+.image-faq:target{
+  background-color: #2ad0fa;
+}
+
+.click-plus-faq{
+  /*display: none;*/
   padding: 3.2rem;
   border-bottom: 1px solid rgba(176, 185, 209, 0.30);
   border-left: 1px solid rgba(176, 185, 209, 0.30);
