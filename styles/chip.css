@@ -118,9 +118,10 @@ header {
   width: 3rem;
 }
 
-/* Wecome to the Future */
+/* Welcome to the Future */
 main img {
   max-width: 80rem;
+  max-height: 80rem;
 }
 
 #welcomeFuture {
@@ -208,10 +209,9 @@ footer h4 {
   font-size: 2.4rem;
 }
 
-/* #leftFooter {
-  display: flex;
-  flex-direction: column;
-} */
+#leftFooter {
+  max-height: 66rem;
+}
 
 .footerLeftFlex {
   display: flex;
@@ -251,11 +251,23 @@ footer h4 {
 }
 
 #buttonContact {
-  padding: 2.4rem 2.4rem;
-  background-color: #3b81c1;
+  width: 68rem;
+  display: flex;
+}
+
+#buttonContact input {
+  padding: 0.5rem 26.5rem;
+  color: white;
+  background-color: black;
   font-size: 2.4rem;
   font-weight: 700;
   border-radius: 10px;
+  width: 68rem;
+  height: 6.8rem;
+}
+
+#buttonContact input:hover {
+  cursor: pointer;
 }
 
 .surnameFlex {
@@ -273,6 +285,7 @@ footer h4 {
   border-radius: 10px;
   border: 0;
   font-family: "Michroma", sans-serif;
+  text-indent: 1rem;
 }
 
 .tinyInput {
@@ -282,10 +295,24 @@ footer h4 {
 
 .largeInput {
   height: 6rem;
-  width: 68.7rem;
+  width: 68rem;
 }
 
-.bigInput {
-  height: 15.6rem;
-  width: 68.7rem;
+input:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding: 1rem 0;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1510px) {
+  .footerLeftFlex div {
+    padding-bottom: 0;
+  }
 }
