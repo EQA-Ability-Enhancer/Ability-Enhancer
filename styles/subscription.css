@@ -13,7 +13,8 @@
 
 /* generic */
 html {
-    background: url(../assets/img/bg/bg.png) no-repeat;
+    background: url(../assets/img/bg/bg.png);
+    background-size: cover;
 }
   
 h1,h2,h3,a {
@@ -24,7 +25,7 @@ h1,h2,h3,a {
   
 p,h4 {
     font-family: "Michroma", sans-serif;
-    color: #6a6c75;
+    color: white;
     font-size: 1.6rem;
 }
 
@@ -163,6 +164,38 @@ header {
 
 
 
+/* Choose Perfect */
+
+.perfect-plan{
+
+}
+
+.perfect-plan h2{
+  font-size: 7.2rem;
+  font-weight: 900;
+  width: 816px;
+  margin-bottom: 4rem;
+}
+
+.perfect-plan article{
+  background-color: white;
+  padding: 16px;
+  gap: 16px;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.perfect-plan h4{
+  color: #000;
+}
+
+.perfect-plan p{
+  color: #000;
+}
+
+.price{
+  color: #000;
+}
 
 
 
@@ -170,12 +203,42 @@ header {
 
 
 
+/* Review */
 
+.bg-review-title h2{
+  font-size: 7.5rem;
+  font-weight: 400;
+}
 
+.para-title{
+  font-size: 2.4rem;
+  letter-spacing: -0.96px;
+  margin-bottom: 5rem;
+}
 
+.bg-review article{
+  background-color: white;
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+.bg-review p{
+  color: #000;
+}
 
+.bg-review h4{
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
 
-
+.bg-review img{
+  height: 64px;
+  max-height: 64px;
+}
 
 
 /* FAQ */
@@ -216,6 +279,8 @@ header {
   max-width: 1200px;
 }
 
+
+
 /* footer */
 footer {
   height: 74rem;
@@ -224,6 +289,7 @@ footer {
 
 footer h3 {
   margin-top: 2rem;
+  font-size: 4rem;
 }
 
 .footerFlex {
@@ -314,6 +380,7 @@ footer h4 {
   border: 0;
   font-family: "Michroma", sans-serif;
   text-indent: 1rem;
+  width: 68rem;
 }
 
 .tinyInput {
@@ -323,7 +390,6 @@ footer h4 {
 
 .largeInput {
   height: 6rem;
-  width: 68rem;
 }
 
 input:focus {
@@ -341,6 +407,6 @@ textarea:focus {
 
 @media only screen and (max-width: 1510px) {
   .footerLeftFlex div {
-    padding-bottom: 0;
+    padding-bottom: 0.5rem;
   }
 }
