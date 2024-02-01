@@ -1,5 +1,62 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
+  /* generic */
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    max-width: 35rem;
+  }
+
+  div {
+    max-width: 35rem;
+  }
+
+  p {
+    max-width: 35rem;
+  }
+
+  .container {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+
+  /* Chip */
+  #chip {
+    text-align: center;
+  }
+
+  /* Exo-Skeleton */
+  #exoSkeleton .container {
+    flex-direction: column-reverse;
+    height: 100rem;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #exoSkeleton img {
+    height: 30rem;
+  }
+
+  /* About us */
+  #aboutUs {
+    margin-bottom: 30rem;
+  }
+  #aboutUs .container {
+    height: 110rem;
+    justify-content: center;
+  }
+
+  #aboutUs .container div {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #aboutUs article,
+  #aboutUs h2 {
+    margin-bottom: 3rem;
+  }
   /* footer */
   footer {
     height: 135rem;

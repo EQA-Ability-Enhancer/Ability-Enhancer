@@ -46,11 +46,12 @@ p {
 }
 
 .buttonBuy {
-  padding: 2.4rem 11rem;
+  padding: 2.4rem 11rem 2.6rem 11rem;
   background-color: #32eba1;
   font-size: 2.4rem;
   font-weight: 700;
   border-radius: 1rem;
+  line-height: 3rem;
 }
 
 main section {
@@ -135,7 +136,7 @@ header {
 }
 
 #future a {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 /* Chip */
@@ -196,8 +197,27 @@ header {
   color: white;
 }
 
-/* About us */
+/* Buy */
+#plsBuy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+#plsBuy div {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#plsBuy a {
+  font-size: 3.5rem;
+}
+
+/* About us */
 #aboutUs {
   display: flex;
   flex-direction: column;
