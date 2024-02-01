@@ -64,16 +64,16 @@ p {
 }
 
 /*Background du menu + menu*/
-/*
 header {
-  -webkit-backdrop-filter: blur(0.8rem);
-  backdrop-filter: blur(0.8rem);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   height: 6rem;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
-.menu{
+.menu {
   display: flex;
   justify-content: space-between;
   height: inherit;
@@ -82,7 +82,7 @@ header {
   align-items: center;
 }
 
-.menu-list{
+.menu-list {
   display: flex;
   width: 63.5rem;
   justify-content: space-evenly;
@@ -93,28 +93,28 @@ header {
   display: inline-block;
   padding: 0rem 1.25rem;
 }
-     
+
 .menu li a {
   transition: all 0.3s ease 0s;
   font-size: 1.6rem;
 }
-     
+
 .menu li a:hover {
   color: #2ad0fa;
 }
 
-.width-logo-nav{
+.width-logo-nav {
   width: 2.2rem;
 }
 
-.arrow-down{
+.arrow-down {
   padding-bottom: 0.8rem;
   padding-left: 0.3rem;
 }
 
-.image-menu-logo{
+.image-menu-logo {
   width: 3rem;
-} */
+}
 
 /* Welcome to the Future */
 main img {
