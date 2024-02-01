@@ -1,3 +1,77 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
+  /* footer */
+  footer {
+    height: 135rem;
+  }
+
+  .footerFlex {
+    display: block;
+    height: 135rem;
+  }
+
+  #leftFooter {
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #leftFooter h3 {
+    margin-top: 1rem;
+  }
+
+  .footerLeftFlex {
+    margin-bottom: 1rem;
+    width: 25rem;
+  }
+
+  .footerLeftFlex p,
+  .footerLeftFlex li,
+  footer h4,
+  footer h3 {
+    width: 25rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #whiteBox {
+    width: 35rem;
+  }
+
+  .footerLeftFlex a {
+    margin-bottom: 2rem;
+  }
+
+  .footerLeftFlex div {
+    padding-right: 0;
+  }
+
+  .surnameFlex {
+    display: block;
+  }
+
+  .tinyInput,
+  .largeInput {
+    height: 4rem;
+    width: 25rem;
+  }
+
+  .footerInput {
+    width: 25rem;
+  }
+
+  #whiteBox h3 {
+    margin: 0;
+  }
+
+  #buttonContact {
+    width: 25rem;
+  }
+
+  #buttonContact input {
+    width: 25rem;
+    padding: 0;
+  }
 }
