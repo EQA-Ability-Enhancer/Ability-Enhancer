@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>EQA</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+          <a href="./index.html" target="_blank"><img class="image-menu-logo" src="../assets/img/Logo-Nav.svg" alt="Logo EQA"></a>
+          <nav>
+              <ul class="menu-list">
+                  <li>
+                      <a href="./subscription.html">Subscription</a>
+                  </li>
+                  <li>
+                      <a href="./chip.html">Chip</a>
+                  </li>
+                  <li>
+                      <a href="./exo-skeleton.html">Exo-Skeleton</a>
+                  </li>
+                  <li>
+                      <a href="./about-us.html">About us</a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img class="width-logo-nav" src="../assets/img/Vectorshopping.svg" alt="">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img class="width-logo-nav" src="../assets/img/languages.svg" alt="Flag languages">
+                          <img class="arrow-down" src="../assets/img/VectorBas-lien.svg" alt="Arrow down">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img class="width-logo-nav" src="../assets/img/profil user.svg" alt="profil user">
+                          <img class="arrow-down" src="../assets/img/VectorBas-lien.svg" alt="Arrow down">
+                      </a>
+                  </li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="sectionFrame">
+        <div class="backgroundImage">
+          <img src="./assets/img/luca-bravo.jpg" />
+        </div>
+        <section>
+          <h1>The Future Is Here</h1>
+          <div>
+            <a class="buttonBuy" href="#">Buy</a>
+          </div>
+        </section>
+      </section>
+      <section class="sectionFrame">
+        <div class="backgroundImage">
+          <img src="./assets/img/Puce-RFID.png" />
+        </div>
+        <section class="container">
+          <div class="chipAlignButton">
+            <h2 class="chipLeft">Chip</h2>
+            <p class="textchip">
+              Chip technology has the potential to transform the field of
+              healthcare, offering new possibilities for diagnosis, treatment,
+              and prevention of diseases. By integrating tiny chips into medical
+              devices, we can unlock a world of opportunities to improve patient
+              outcomes and enhance the overall quality of care.
+            </p>
+            <div id="learnMoreLeft">
+              <a class="buttonBuyExo" href="#">Learn More</a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="exoFrame">
+        <div class="backgroundImage">
+          <img class="whiteBack" />
+        </div>
+        <section>
+          <div>
+            <img src="./assets/img/exo.png" alt="Alien" />
+          </div>
+          <div>
+            <h2 id="h2Black">Exo-Skeleton</h2>
+            <p class="textExo">
+              Our cutting-edge exo-skeletons are designed to enhance your
+              physical ability, making you stronger, faster, and capable of
+              lifting heavy objects with ease. Whether you are an athlete
+              looking to improve your performance or someone with an amputated
+              limb seeking to regain mobility, our exo-skeletons can help you
+              achieve your goals. Explore our website to learn more about the
+              benefits of exo-skeleton technology and how it can transform your
+              life.
+            </p>
+            <a class="buttonBuyExo" href="#">Learn More</a>
+          </div>
+        </section>
+      </section>
+      <section class="sectionFrame">
+        <div class="backgroundImage">
+          <img class="noirBack" />
+        </div>
+        <section>
+          <h2>About us</h2>
+          <div class="aboutUS">
+            <div class="bg-White">
+              <h3>Our Mission</h3>
+              <p>
+                At EQA - Ability Enhancer, our mission is to empower individuals
+                facing physical challenges by providing innovative solutions
+                that enhance their abilities and improve their quality of life.
+              </p>
+            </div>
+            <div class="bg-White">
+              <h3>Our Vision</h3>
+              <p>
+                We envision a world where technology breaks barriers and enables
+                everyone to reach their full potential, regardless of physical
+                limitations. Through our cutting-edge advancements, we strive to
+                create a more inclusive and accessible society.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="container footerFlex">
+        <section id="leftFooter">
+          <div>
+            <h3>Contact EQA</h3>
+          </div>
+          <div class="footerLeftFlex">
+            <div>
+              <h4>Phone</h4>
+              <p>+1 123-456-7890</p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>info@eqa.com</p>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>123 Main St, City, State, Country</p>
+            </div>
+          </div>
+          <div class="footerLeftFlex">
+            <div>
+              <p>
+                © EQA 2024<br />
+                <br />
+                Exoskeletons and chips shown in the images may differ from
+                serial models.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Chip</a></li>
+                <li><a href="#">Exo-Skeleton</a></li>
+                <li><a href="#">Subscription</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookie Declaration</a>n</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="whiteBox" class="blackText">
+          <div>
+            <h3 class="blackText">Get in Touch</h3>
+          </div>
+          <div class="surnameFlex">
+            <div>
+              <h4 class="blackText">Name</h4>
+              <input
+                class="tinyInput footerInput"
+                type="text"
+                placeholder="John"
+              />
+            </div>
+            <div>
+              <h4 class="blackText">Surname</h4>
+              <input
+                class="tinyInput footerInput"
+                type="text"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+          <div>
+            <h4 class="blackText">Mail</h4>
+            <input
+              class="largeInput footerInput"
+              type="email"
+              placeholder="johndoe@mail.net"
+            />
+          </div>
+          <div>
+            <h4 class="blackText">Message</h4>
+            <textarea class="footerInput" rows="6" cols="43"></textarea>
+          </div>
+          <div id="buttonContact">
+            <input type="submit" value="Submit" />
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
