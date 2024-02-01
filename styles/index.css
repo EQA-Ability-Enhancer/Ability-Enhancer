@@ -50,11 +50,18 @@ p {
   background-color: #3b81c1;
   font-size: 2.4rem;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 section {
-  min-height: 90rem;
+  min-height: 100rem;
+}
+
+.backgroundImages {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 265rem;
+  margin: 0 auto;
 }
 
 /*Background du menu + menu*/
@@ -113,8 +120,39 @@ header {
 /* The Future Is Here */
 #future {
   background-image: url(/assets/img/BuildingBlades.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
-  align-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#future div {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* Chip */
+#chip {
+  background-image: url(/assets/img/Puce.png);
+  display: flex;
+  align-items: center;
+}
+
+#chip div {
+  height: 55rem;
+  width: 168rem;
+}
+
+#chip p {
+  max-width: 62rem;
+  margin-bottom: 5rem;
+}
+
+#chip a {
+  padding: 1.4rem 4rem;
+  background-color: white;
+  color: black;
 }
