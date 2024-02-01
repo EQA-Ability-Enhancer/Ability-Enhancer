@@ -12,14 +12,7 @@
     }
 
     .align-trial p{
-        padding-left: 1rem;
         font-size: 1.4rem;
-    }
-
-    .flex-freetrail{
-        display: flex;
-        height: 
-        justify-content: space-between;
     }
 
     .title-freetrail{
@@ -31,22 +24,14 @@
     
     .generation{
         font-size: 4.5rem;
-        font-weight: 700;
-        background: -webkit-linear-gradient(#DEF9FA, #33BBCF);
-        background-clip:content-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     .little-p{
-        line-height: 2;
         width: 35rem;
-        font-weight: 400;
         font-size: 1.4rem;
     }
 
     .freetrial{
-        color: white;
         font-size: 1.5rem;
     }
 
@@ -54,46 +39,158 @@
     /* Why Subscribe */
     .title-subscribe{
         font-size: 4.5rem;
-        margin-bottom: 1rem;
     }
 
     .title-subscribe + p{
         font-size: 1.4rem;
-        margin-bottom: 4rem;
     }
 
     .subscriber-flex{
-        display: flex;
         flex-direction: column;
+    }
+
+    .bg-grey h3{
+        font-size: 3rem;
+    }
+      
+    .bg-grey p{
+        font-size: 1.5rem;
     }
 
 
     /* Choose Perfect */
     .perfect-plan h2{
-        font-size: 4.5rem;
+        font-size: 3.7rem;
+        width: 35rem;
+        text-align:left;
+    }
+
+    .perfect-plan article{
         width: 35rem;
     }
 
+    .perfect-plan h4{
+        font-size: 3rem;
+    }
+      
+    .perfect-plan p{
+        font-size: 1.5rem;
+    }
+
+    #price{
+        font-size: 2rem;
+    }
 
 
+    /* Review */
+    .bg-review-title h2{
+        font-size: 4.5rem;
+    }
+      
+    .para-title{
+        font-size: 1.4rem;
+    }
+
+    .bg-review p{
+        font-size: 1.4rem;
+    }
+      
+    .bg-review h4{
+        font-size: 2rem;
+    }
+      
+    .bg-review img{
+        height: 5rem;
+    }
 
 
+    /* FAQ */
 
+    .FAQ h2{
+        font-size: 5.2rem;
+    }
 
+    .FAQ h3{
+        font-size: 2rem;
+    }
+      
+    .FAQ img{
+        height: 4.5rem;
+    }
 
+    
+    /* footer */
+    footer {
+        height: 135rem;
+    }
 
+    .footerFlex {
+        display: block;
+        height: 135rem;
+    }
 
+    #leftFooter {
+        text-align: center;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #leftFooter h3 {
+        margin-top: 1rem;
+    }
 
+    .footerLeftFlex {
+        margin-bottom: 1rem;
+        width: 25rem;
+    }
 
+    .footerLeftFlex p,
+    .footerLeftFlex li,
+    footer h4,
+    footer h3 {
+        width: 25rem;
+        text-align: center;
+        margin: 0;
+    }
 
+    #whiteBox {
+        width: 35rem;
+    }
 
+    .footerLeftFlex a {
+        margin-bottom: 2rem;
+    }
 
+    .footerLeftFlex div {
+        padding-right: 0;
+    }
 
+    .surnameFlex {
+        display: block;
+    }
 
+    .tinyInput,
+    .largeInput {
+        height: 4rem;
+        width: 25rem;
+    }
 
+    .footerInput {
+        width: 25rem;
+    }
 
+    #whiteBox h3 {
+        margin: 0;
+    }
 
+    #buttonContact {
+        width: 25rem;
+    }
 
-
+    #buttonContact input {
+        width: 25rem;
+        padding: 0;
+    }
 }
