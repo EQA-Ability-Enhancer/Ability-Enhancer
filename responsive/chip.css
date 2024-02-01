@@ -27,6 +27,10 @@
     margin: 0;
   }
 
+  .buttonBuy {
+    padding: 2.4rem 9rem;
+  }
+
   /* Welcome to the Future */
   #welcomeFuture img {
     max-width: 30rem;
