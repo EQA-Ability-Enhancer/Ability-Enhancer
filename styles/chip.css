@@ -52,7 +52,7 @@ p {
   background-color: #3b81c1;
   font-size: 2.4rem;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .tinySpace {
@@ -66,8 +66,8 @@ p {
 /*Background du menu + menu*/
 /*
 header {
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(0.8rem);
+  backdrop-filter: blur(0.8rem);
   height: 6rem;
   position: sticky;
   top: 0;
@@ -238,7 +238,7 @@ footer h4 {
   height: 66rem;
   background-color: rgb(233, 233, 233);
   padding: 5rem;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 #whiteBox h3 {
@@ -256,7 +256,7 @@ footer h4 {
   background-color: black;
   font-size: 2.4rem;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 #buttonContact input:hover {
@@ -275,7 +275,7 @@ footer h4 {
 
 .footerInput {
   font-size: 1.6rem;
-  border-radius: 10px;
+  border-radius: 1rem;
   border: 0;
   font-family: "Michroma", sans-serif;
   width: 68rem;
@@ -305,7 +305,7 @@ textarea:focus {
   outline: none;
 }
 
-@media only screen and (max-width: 1510px) {
+@media only screen and (max-width: 151rem) {
   .footerLeftFlex div {
     padding-bottom: 0.5rem;
   }

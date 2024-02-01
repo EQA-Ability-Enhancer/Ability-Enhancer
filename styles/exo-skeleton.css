@@ -4,8 +4,8 @@
 *{
     font-size: 62.5%;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     text-decoration: none;
     list-style: none;
 }
@@ -29,8 +29,8 @@ p,h4 {
 
 /*Background du menu + menu*/
 header {
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(0.8rem);
+    backdrop-filter: blur(0.8rem);
     height: 6rem;
     position: sticky;
     top: 0;
