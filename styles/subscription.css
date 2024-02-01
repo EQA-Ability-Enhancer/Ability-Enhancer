@@ -33,6 +33,17 @@ p {
 
 
 /*Background du menu + menu*/
+header::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0.8rem);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 header {
   height: 6rem;
   position: sticky;
@@ -44,7 +55,7 @@ header {
   margin: 0 auto;
   align-items: center;
   max-width: 180.5rem;
-  backdrop-filter: blur(0.8rem);
+  z-index: 100;
 }
 
 .icon{
@@ -169,7 +180,7 @@ header {
     position: absolute;
     height: 69rem;
     padding-left: 100rem;
-    z-index: -1;
+    z-index: -2;
 }
 
 /* Why Subscribe */

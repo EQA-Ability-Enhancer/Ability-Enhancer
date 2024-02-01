@@ -1,3 +1,54 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
+    /*Background du menu + menu*/
+  .icon{
+    position: absolute;
+    display: block;
+    margin-right: 1.2rem;
+    right: 5%;
+  }
+
+  #check:checked~.icon #open-menu {
+    display: none;
+  }
+
+  .icon #close-menu{
+    display: none;
+  }
+
+  #check:checked~.icon #close-menu {
+    display: block;
+  }
+
+  .menu-list{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .1);
+    top:100%;
+    left: 0;
+    height: 0rem;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    transition: .3s ease;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding-right: 9%;
+    gap:.5rem;
+    backdrop-filter: blur(0.8rem);
+  }
+
+  #check:checked~.menu-list {
+    height: 27.7rem;
+  }
+
+  .image-menu-logo{
+    position: absolute;
+    width: 3rem;
+    top: 25%;
+    left: 5%;
+  }
+
+
+
+  
 }

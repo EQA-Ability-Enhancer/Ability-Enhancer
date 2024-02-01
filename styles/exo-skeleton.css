@@ -14,6 +14,7 @@
 /* generic */
 html {
     background-color: black;
+    scroll-behavior: smooth;
 }
   
 h1,h2,h3,a {
@@ -28,21 +29,40 @@ p,h4 {
 
 
 /*Background du menu + menu*/
-header {
-    -webkit-backdrop-filter: blur(0.8rem);
+header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
     backdrop-filter: blur(0.8rem);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
     height: 6rem;
     position: sticky;
     top: 0;
-}
-
-.menu{
+    left: 0;
     display: flex;
     justify-content: space-between;
-    height: inherit;
-    max-width: 180.5rem;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
+    max-width: 180.5rem;
+    z-index: 100;
+}
+
+.icon{
+    display: none;
+}
+
+#check{
+    position: absolute;
+    display: none;
+    margin-right: 1.2rem;
+    right: 5%;
 }
 
 .menu-list{
@@ -52,17 +72,17 @@ header {
     align-items: center;
 }
 
-.menu li {
+.menu-list li {
     display: inline-block;
     padding: 0rem 1.25rem;
 }
-       
-.menu li a {
+
+.menu-list li a {
     transition: all 0.3s ease 0s;
     font-size: 1.6rem;
 }
-       
-.menu li a:hover {
+
+.menu-list li a:hover {
     color: #2ad0fa;
 }
 
@@ -77,11 +97,7 @@ header {
 
 .image-menu-logo{
     width: 3rem;
+    margin-left: 2rem;
 }
-
-
-/*Container main 1680px = 168rem BODY*/
-.container{
-    max-width: 168rem;
-    margin: 0 auto;
-}
+  
+  
