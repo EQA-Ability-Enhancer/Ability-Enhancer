@@ -26,6 +26,7 @@ h1,h2,h3,h4,a {
 p {
     font-family: "Michroma", sans-serif;
     color: white;
+    font-size: 2rem;
 }
 
 
@@ -208,7 +209,7 @@ header {
 }
 
 .perfect-plan article{
-  background-color: white;
+  background-color: #b0b9d130;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -218,14 +219,12 @@ header {
 }
 
 .perfect-plan h4{
-  color: #000;
   font-size: 4rem;
   font-weight: 700;
   padding-bottom: 2rem;
 }
 
 .perfect-plan p{
-  color: #000;
   font-size: 2rem;
 }
 
@@ -248,19 +247,17 @@ header {
 }
 
 .bg-review article{
-  background-color: white;
+  background-color: #b0b9d130;
   display: flex;
   padding: 1.6rem;
   gap: 1.6rem;
   border-radius: 2rem;
 }
 .bg-review p{
-  color: #000;
   font-size: 2rem;
 }
 
 .bg-review h4{
-  color: #000;
   font-size: 3rem;
   letter-spacing: 0.1rem;
 }
@@ -328,6 +325,7 @@ footer h3 {
 
 .footerFlex {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   height: 74rem;
@@ -360,7 +358,6 @@ footer h4 {
 .footerLeftFlex a {
   text-decoration: underline;
   font-size: 2rem;
-  color: #6a6c75;
   font-family: "Michroma", sans-serif;
 }
 
@@ -371,27 +368,25 @@ footer h4 {
   height: 66rem;
   background-color: rgb(233, 233, 233);
   padding: 5rem;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 #whiteBox h3 {
   margin-right: 20rem;
 }
 
-#buttonContact {
+#buttonContact,
+#buttonContact input {
   width: 68rem;
-  display: flex;
+  height: 6.8rem;
 }
 
 #buttonContact input {
-  padding: 0.5rem 26.5rem;
   color: white;
   background-color: black;
   font-size: 2.4rem;
   font-weight: 700;
-  border-radius: 1rem;
-  width: 68rem;
-  height: 6.8rem;
+  border-radius: 10px;
 }
 
 #buttonContact input:hover {
@@ -408,27 +403,23 @@ footer h4 {
   color: black;
 }
 
-.footerLeftFlex p{
- font-size: 2rem;
-}
-
-
 .footerInput {
   font-size: 1.6rem;
-  border-radius: 1rem;
+  border-radius: 10px;
   border: 0;
   font-family: "Michroma", sans-serif;
-  text-indent: 1rem;
   width: 68rem;
 }
 
 .tinyInput {
   height: 6rem;
   width: 33.8rem;
+  text-indent: 1rem;
 }
 
 .largeInput {
   height: 6rem;
+  text-indent: 1rem;
 }
 
 input:focus {
@@ -437,7 +428,7 @@ input:focus {
 
 textarea {
   resize: none;
-  padding: 1rem 0;
+  padding: 0.7rem 1rem;
 }
 
 textarea:focus {
