@@ -24,6 +24,7 @@ h4,
 a {
   font-family: "Maven Pro", sans-serif;
   color: white;
+  font-size: 2rem;
 }
 
 h1,
@@ -109,18 +110,13 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-
-.menu-list li {
-  display: inline-block;
-  padding: 0rem 1.25rem;
-}
   
-.menu-list li a {
+.menu-list a {
   transition: all 0.3s ease 0s;
   font-size: 1.6rem;
 }
   
-.menu-list li a:hover {
+.menu-list a:hover {
   color: #2ad0fa;
 }
 

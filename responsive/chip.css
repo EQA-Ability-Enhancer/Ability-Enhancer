@@ -18,13 +18,21 @@
     max-width: 35rem;
   }
 
+  .buttonBuy {
+    padding: 1rem 1.5rem;
+    background-color: #dbc441;
+    font-size: 3.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+  }
+
   .container {
     max-width: 35rem;
     margin: 0 auto;
   }
 
   .tinySpace {
-    margin: 0;
+    margin: 2rem;
   }
 
   /*Background du menu + menu*/
