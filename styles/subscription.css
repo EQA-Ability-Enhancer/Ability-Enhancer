@@ -4,8 +4,8 @@
 *{
     font-size: 62.5%;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     text-decoration: none;
     list-style: none;
 }
@@ -18,12 +18,12 @@ html {
     background-color: black;
 }
   
-h1,h2,h3,a {
+h1,h2,h3,h4,a {
     font-family: "Maven Pro", sans-serif;
     color: white;
 }
   
-p,h4 {
+p {
     font-family: "Michroma", sans-serif;
     color: white;
 }
@@ -84,14 +84,20 @@ header {
 
 /*Container main 1680px = 168rem BODY*/
 .container{
-    max-width: 168rem;
-    margin: 0 auto;
-    /*height: 555rem;*/
+  max-width: 168rem;
+  margin: 0 auto;
 }
 
+.subscriber-flex{
+  display: flex;
+  gap: 2rem;
+}
+
+
+/*FreeTrail*/
 .flex-freetrail{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .spaceBetween{
@@ -99,9 +105,9 @@ header {
 }
 
 .getstarted{
-    position: absolute;
-    padding-left: 46.5rem;
-    padding-top: 5rem;
+  position: absolute;
+  padding-left: 46.5rem;
+  padding-top: 5rem;
 }
 
 .trial{
@@ -132,8 +138,9 @@ header {
 
 .little-p{
   line-height: 2;
-  width: 52rem;
+  width: 56rem;
   font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .generation{
@@ -153,20 +160,44 @@ header {
 }
 
 /* Why Subscribe */
-.title-susbcribe{
-
-}
-
-.subscriber-flex{
+.flex-subs{
   display: flex;
+  gap: 1rem;
 }
 
+.title-subscribe{
+  font-size: 7.2rem;
+  margin-bottom: 1rem;
+}
+
+.title-subscribe + p{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.bg-grey{
+  background-color: #b0b9d130;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-grey h3{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.bg-grey p{
+  font-size: 2rem;
+}
 
 
 /* Choose Perfect */
-
-.perfect-plan{
-
+.flexbox-subs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .perfect-plan h2{
@@ -178,71 +209,71 @@ header {
 
 .perfect-plan article{
   background-color: white;
-  padding: 16px;
-  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
   border-radius: 2rem;
-  margin-right: 2rem;
+  padding: 3rem;
+  width: min-content;
 }
 
 .perfect-plan h4{
   color: #000;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
 }
 
 .perfect-plan p{
   color: #000;
+  font-size: 2rem;
 }
 
-.price{
-  color: #000;
+#price{
+  font-size: 4rem;
+  font-weight: 700;
 }
-
-
-
-
-
 
 
 /* Review */
-
 .bg-review-title h2{
   font-size: 7.5rem;
   font-weight: 400;
 }
 
 .para-title{
-  font-size: 2.4rem;
-  letter-spacing: -0.96px;
+  font-size: 2rem;
+  letter-spacing: -0.096rem;
   margin-bottom: 5rem;
 }
 
 .bg-review article{
   background-color: white;
   display: flex;
-  padding: 16px;
-  gap: 16px;
+  padding: 1.6rem;
+  gap: 1.6rem;
   border-radius: 2rem;
-  margin-right: 2rem;
 }
 .bg-review p{
   color: #000;
+  font-size: 2rem;
 }
 
 .bg-review h4{
   color: #000;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: -0.8px;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
 }
 
 .bg-review img{
-  height: 64px;
-  max-height: 64px;
+  height: 6.4rem;
+  max-height: 6.4rem;
 }
 
 
 /* FAQ */
 .container-faq{
-  border-radius: 20px;
+  border-radius: 2rem;
   margin-bottom: 2rem;;
 }
 
@@ -261,7 +292,7 @@ header {
   padding: 32px;
   justify-content: space-between;
   align-items: center;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 2rem 2rem 2rem 2rem;
 }
 
 .FAQ h3{
@@ -340,7 +371,7 @@ footer h4 {
   height: 66rem;
   background-color: rgb(233, 233, 233);
   padding: 5rem;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 #whiteBox h3 {
@@ -358,7 +389,7 @@ footer h4 {
   background-color: black;
   font-size: 2.4rem;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 1rem;
   width: 68rem;
   height: 6.8rem;
 }
@@ -377,9 +408,14 @@ footer h4 {
   color: black;
 }
 
+.footerLeftFlex p{
+ font-size: 2rem;
+}
+
+
 .footerInput {
   font-size: 1.6rem;
-  border-radius: 10px;
+  border-radius: 1rem;
   border: 0;
   font-family: "Michroma", sans-serif;
   text-indent: 1rem;
