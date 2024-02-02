@@ -1,100 +1,350 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap");
 
-/*Reset CSS*/
-*{
-    font-size: 62.5%;
-    box-sizing: border-box;
-    margin: 0rem;
-    padding: 0rem;
-    text-decoration: none;
-    list-style: none;
+/* reset */
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
-
 
 /* generic */
 html {
-    background-color: black;
-    scroll-behavior: smooth;
-}
-  
-h1,h2,h3,a {
-    font-family: "Maven Pro", sans-serif;
-    color: white;
-    font-size: 2rem;
-}
-  
-p,h4 {
-    font-family: "Michroma", sans-serif;
-    color: white;
+  background-color: #00040f;
+  color: white;
+  scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Maven Pro", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+h1,
+h2 {
+  font-size: 7.2rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+p {
+  font-family: "Michroma", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.container {
+  max-width: 168rem;
+  margin: 0 auto;
+}
+
+.buttonBuy {
+  padding: 2.4rem 11rem;
+  background-color: #dbc441;
+  font-size: 3.5rem;
+  font-weight: 700;
+  border-radius: 1rem;
+}
 
 /*Background du menu + menu*/
-header::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(0.8rem);
-    background-color: rgba(0, 0, 0, .1);
-    top: 0;
-    left: 0;
-    z-index: -1;
+header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0.8rem);
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 header {
-    height: 6rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    max-width: 190.5rem;
-    z-index: 100;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 190.5rem;
+  z-index: 100;
 }
 
-.icon{
-    display: none;
+.icon {
+  display: none;
 }
 
-#check{
-    position: absolute;
-    display: none;
-    margin-right: 1.2rem;
-    right: 5%;
+#check {
+  position: absolute;
+  display: none;
+  margin-right: 1.2rem;
+  right: 5%;
 }
 
-.menu-list{
-    display: flex;
-    width: 63.5rem;
-    justify-content: space-evenly;
-    align-items: center;
+.menu-list {
+  display: flex;
+  width: 63.5rem;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .menu-list a {
-    transition: all 0.3s ease 0s;
-    font-size: 1.6rem;
+  transition: all 0.3s ease 0s;
+  font-size: 1.6rem;
 }
 
 .menu-list a:hover {
-    color: #2ad0fa;
+  color: #2ad0fa;
 }
 
-.width-logo-nav{
-    width: 2.2rem;
+.width-logo-nav {
+  width: 2.2rem;
 }
 
-.arrow-down{
-    padding-bottom: 0.8rem;
-    padding-left: 0.3rem;
+.arrow-down {
+  padding-bottom: 0.8rem;
+  padding-left: 0.3rem;
 }
 
-.image-menu-logo{
-    width: 3rem;
-    margin-left: 2rem;
+.image-menu-logo {
+  width: 3rem;
+  margin-left: 2rem;
 }
-  
-  
+
+/* Enhance */
+#enhance {
+  display: flex;
+  /* justify-items: center; */
+  margin-top: 10rem;
+  min-height: 100rem;
+}
+
+#enhance img {
+  height: 65rem;
+  width: 70rem;
+  object-fit: cover;
+}
+
+#enhance h1 {
+  max-width: 81.6rem;
+}
+
+#enhance p {
+  margin: 5rem 0;
+}
+
+.enhanceButton {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Key Features */
+#features {
+  display: flex;
+  flex-direction: column;
+  min-height: 100rem;
+}
+
+#features p {
+  margin-top: 2rem;
+}
+
+#divFeatures {
+  margin-bottom: 10rem;
+}
+
+.enhancedFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.enhancedFlex div {
+  max-width: 40rem;
+}
+
+/* People saying */
+#peopleSaying {
+  display: flex;
+  flex-direction: column;
+}
+
+#peopleSaying img {
+  height: 6.4rem;
+  margin-right: 1rem;
+}
+
+#peopleSaying p {
+  margin-top: 2rem;
+}
+
+#peopleSaying div {
+  margin-bottom: 5rem;
+}
+
+.peopleFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.peopleFlex article {
+  max-width: 55rem;
+  display: flex;
+  align-items: start;
+}
+/* Unlock */
+#unlock {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 110rem;
+}
+
+#unlock h2 {
+  margin-bottom: 10rem;
+}
+
+/* footer */
+footer {
+  height: 74rem;
+  background-color: black;
+}
+
+footer h3 {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.footerFlex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 74rem;
+}
+
+footer h4 {
+  font-size: 2.4rem;
+}
+
+#leftFooter {
+  max-height: 66rem;
+}
+
+.footerLeftFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.footerLeftFlex p {
+  width: 30rem;
+}
+
+.footerLeftFlex div {
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+}
+
+.footerLeftFlex a {
+  text-decoration: underline;
+  font-size: 2rem;
+  font-family: "Michroma", sans-serif;
+}
+
+#whiteBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 78.3rem;
+  height: 66rem;
+  background-color: rgb(233, 233, 233);
+  padding: 5rem;
+  border-radius: 1rem;
+}
+
+#whiteBox h3 {
+  margin-right: 20rem;
+}
+
+#buttonContact,
+#buttonContact input {
+  width: 68rem;
+  height: 6.8rem;
+}
+
+#buttonContact input {
+  color: white;
+  background-color: black;
+  font-size: 2.4rem;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+
+#buttonContact input:hover {
+  cursor: pointer;
+}
+
+.surnameFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blackText {
+  color: black;
+}
+
+.footerInput {
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 0;
+  font-family: "Michroma", sans-serif;
+  width: 68rem;
+}
+
+.tinyInput {
+  height: 6rem;
+  width: 33.8rem;
+  text-indent: 1rem;
+}
+
+.largeInput {
+  height: 6rem;
+  text-indent: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding: 0.7rem 1rem;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1500px) {
+  .footerLeftFlex div {
+    padding-bottom: 0.5rem;
+  }
+}
