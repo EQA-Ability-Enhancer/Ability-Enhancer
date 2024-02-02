@@ -3,10 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/payment.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/payment.css"/>
+    <link rel="stylesheet" href="./styles/responsive/payment.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/Favicon.svg">
+    <title>Payment</title>
   </head>
   <body>
+    <main>
+      <form>
+        <section class="payment flex-card">
+          <div class="flex-radio container">
+            <div>
+              <label for="masterCard">Pay with Credit Card</label>
+              <input type="radio" name="masterCard" id="mastercard">
+            </div>
+            <div>
+              <img src="./assets/img/payment/Payment-Visa.svg" alt="Visa Payment">
+              <img src="./assets/img/payment/Payment-Stripe.svg" alt="Stripe Payment">
+              <img src="./assets/img/payment/Payment-Master.svg" alt="MasterCard Payment">
+            </div>
+          </div>
+          <div class="holder-flex">
+            <div>
+              <label class="Hname" for="holderName">Card Holder</label>
+              <input type="text" id="holderName" name="holdername" placeholder="Card Holder Name">
+            </div>
+            <div>
+              <label for="expiry">Expiry</label>
+              <input type="text" id="expiry" name="expirycard" placeholder="06/2025">
+            </div>
+            <div>
+              <label for="cardNumber">Card Number</label>
+              <input type="text" id="cardNumber" name="cardnumber" placeholder="BE48-4875-9548-4254">
+            </div>
+            <div>
+              <label for="Cvv">CVV</label>
+              <input type="text" id="Cvv" name="Cvvcard" placeholder="***">
+            </div>
+          </div>
+        </section>
+        <section class="payment-other">
+          <div>
+            <label for="applePay">Apple Pay</label>
+            <input type="radio" name="applePay" id="applepay">
+            <p>Unlimited users and unlimited individual data.</p>
+          </div>
+          <img src="./assets/img/payment/Payment-Apple.svg" alt="Payment Apple">
+        </section>
+        <section class="payment-other">
+          <div>
+            <label for="paypal">Paypal</label>
+            <input type="radio" name="paypal" id="paypalpayment">
+            <p>You will be redirected to the PayPal website after submitting your order</p>
+          </div>
+          <img src="./assets/img/payment/Payment-Paypal.svg" alt="Payment Paypal">
+        </section>
+        <div>
+        </div>
+        <div>
+          <img src="./assets/img/payment/Secure Icon.svg" alt="Icon Secure">
+          <p>We protect your payment information using encryption to provide bank-level security.</p>
+        </div>
+        <div class="flex-End">
+          <img src="./assets/img/payment/Norton Icon.svg" alt="Norton Secure">
+          <div>
+            <button class="Back" type="button">Back</button>
+            <button class="Next" type="button">Next</button>
+          </div>
+        </div>
+      </form>
+    </main>
     <script src="./scripts/payment.js"></script>
   </body>
 </html>
