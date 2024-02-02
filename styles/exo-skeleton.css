@@ -130,7 +130,6 @@ header {
 /* Enhance */
 #enhance {
   display: flex;
-  /* justify-items: center; */
   margin-top: 10rem;
   min-height: 100rem;
 }
