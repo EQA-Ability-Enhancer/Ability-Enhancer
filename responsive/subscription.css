@@ -1,244 +1,262 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
-    /*Background du menu + menu*/
-    .icon{
-        position: absolute;
-        display: block;
-        margin-right: 1.2rem;
-        right: 5%;
-    }
+  h1,
+  h2 {
+    font-size: 3.2rem;
+  }
 
-    #check:checked~.icon #open-menu {
-        display: none;
-    }
+  h3 {
+    font-size: 2.4rem;
+  }
 
-    .icon #close-menu{
-        display: none;
-    }
+  p {
+    font-size: 1.7rem;
+  }
 
-    #check:checked~.icon #close-menu {
-        display: block;
-    }
+  /*Background du menu + menu*/
+  .icon {
+    position: absolute;
+    display: block;
+    margin-right: 1.2rem;
+    right: 5%;
+  }
 
-    .menu-list{
-        position: absolute;
-        background-color: rgba(0, 0, 0, .1);
-        top:100%;
-        left: 0;
-        height: 0rem;
-        width: 100%;
-        align-items: flex-end;
-        flex-direction: column;
-        overflow: hidden;
-        transition: .3s ease;
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-        padding-right: 9%;
-        gap:.5rem;
-        backdrop-filter: blur(0.8rem);
-    }
+  #check:checked ~ .icon #open-menu {
+    display: none;
+  }
 
-    #check:checked~.menu-list {
-        height: 27.7rem;
-    }
+  .icon #close-menu {
+    display: none;
+  }
 
-    .image-menu-logo{
-        position: absolute;
-        width: 3rem;
-        top: 25%;
-        left: 5%;
-    }
+  #check:checked ~ .icon #close-menu {
+    display: block;
+  }
 
-    
-    /* FreeTrail */
-    .container {
-        max-width: 35rem;
-        margin: 0 auto;
-    }
-    
-    .getstarted, .blur-image, .handImage{
-        display: none;
-    }
+  .menu-list {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0;
+    height: 0rem;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.3s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding-right: 9%;
+    gap: 0.5rem;
+    backdrop-filter: blur(0.8rem);
+  }
 
-    .align-trial p{
-        font-size: 1.4rem;
-    }
+  #check:checked ~ .menu-list {
+    height: 27.7rem;
+  }
 
-    .title-freetrail{
-        font-size: 4.5rem;
-        line-height: 7rem;
-        margin: 0rem 0rem;
-        width: 35rem;
-    }
-    
-    .generation{
-        font-size: 4.5rem;
-    }
+  .image-menu-logo {
+    position: absolute;
+    width: 3rem;
+    top: 25%;
+    left: 5%;
+  }
 
-    .little-p{
-        width: 35rem;
-        font-size: 1.4rem;
-    }
+  /* FreeTrail */
+  .container {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
 
-    .freetrial{
-        font-size: 1.5rem;
-    }
+  .getstarted,
+  .blur-image,
+  .handImage {
+    display: none;
+  }
 
+  .align-trial p {
+    font-size: 1.4rem;
+  }
 
-    /* Why Subscribe */
-    .title-subscribe{
-        font-size: 4.5rem;
-    }
+  .title-freetrail {
+    font-size: 4.5rem;
+    line-height: 7rem;
+    margin: 0rem 0rem;
+    width: 35rem;
+  }
 
-    .title-subscribe + p{
-        font-size: 1.4rem;
-    }
+  .generation {
+    font-size: 4.5rem;
+  }
 
-    .subscriber-flex{
-        flex-direction: column;
-    }
+  .little-p {
+    width: 35rem;
+    font-size: 1.4rem;
+  }
 
-    .bg-grey h3{
-        font-size: 3rem;
-    }
-      
-    .bg-grey p{
-        font-size: 1.5rem;
-    }
+  .freetrial {
+    font-size: 1.5rem;
+  }
 
+  /* Why Subscribe */
+  .title-subscribe {
+    font-size: 4.5rem;
+  }
 
-    /* Choose Perfect */
-    .perfect-plan h2{
-        font-size: 3.7rem;
-        width: 35rem;
-        text-align:left;
-    }
+  .title-subscribe + p {
+    font-size: 1.4rem;
+  }
 
-    .perfect-plan article{
-        width: 35rem;
-    }
+  .subscriber-flex {
+    flex-direction: column;
+  }
 
-    .perfect-plan h4{
-        font-size: 3rem;
-    }
-      
-    .perfect-plan p{
-        font-size: 1.5rem;
-    }
+  .bg-grey h3 {
+    font-size: 3rem;
+  }
 
-    #price{
-        font-size: 2rem;
-    }
+  .bg-grey p {
+    font-size: 1.5rem;
+  }
 
+  /* Choose Perfect */
+  .perfect-plan h2 {
+    font-size: 3.7rem;
+    width: 35rem;
+    text-align: left;
+  }
 
-    /* Review */
-    .bg-review-title h2{
-        font-size: 4.5rem;
-    }
-      
-    .para-title{
-        font-size: 1.4rem;
-    }
+  .perfect-plan article {
+    width: 35rem;
+  }
 
-    .bg-review p{
-        font-size: 1.4rem;
-    }
-      
-    .bg-review h4{
-        font-size: 2rem;
-    }
-      
-    .bg-review img{
-        height: 5rem;
-    }
+  .perfect-plan h4 {
+    font-size: 3rem;
+  }
 
+  .perfect-plan p {
+    font-size: 1.5rem;
+  }
 
-    /* FAQ */
+  #price {
+    font-size: 2rem;
+  }
 
-    .FAQ h2{
-        font-size: 5.2rem;
-    }
+  /* Review */
+  .bg-review-title h2 {
+    font-size: 4.5rem;
+  }
 
-    .FAQ h3{
-        font-size: 2rem;
-    }
-      
-    .FAQ img{
-        height: 4.5rem;
-    }
+  .para-title {
+    font-size: 1.4rem;
+  }
 
-    
-    /* footer */
-    footer {
-        height: 135rem;
-    }
+  .bg-review p {
+    font-size: 1.4rem;
+  }
 
-    .footerFlex {
-        display: block;
-        height: 135rem;
-    }
+  .bg-review h4 {
+    font-size: 2rem;
+  }
 
-    #leftFooter {
-        text-align: center;
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .bg-review img {
+    height: 5rem;
+  }
 
-    #leftFooter h3 {
-        margin-top: 1rem;
-    }
+  /* FAQ */
 
-    .footerLeftFlex {
-        margin-bottom: 1rem;
-        width: 25rem;
-    }
+  .FAQ h2 {
+    font-size: 5.2rem;
+  }
 
-    .footerLeftFlex p,
-    .footerLeftFlex li,
-    footer h4,
-    footer h3 {
-        width: 25rem;
-        text-align: center;
-        margin: 0;
-    }
+  .FAQ h3 {
+    font-size: 2rem;
+  }
 
-    #whiteBox {
-        width: 35rem;
-    }
+  .FAQ img {
+    height: 4.5rem;
+  }
 
-    .footerLeftFlex a {
-        margin-bottom: 2rem;
-    }
+  /* footer */
+  footer {
+    height: 135rem;
+  }
 
-    .footerLeftFlex div {
-        padding-right: 0;
-    }
+  footer h3 {
+    font-size: 3.2rem;
+  }
 
-    .surnameFlex {
-        display: block;
-    }
+  footer p,
+  footer a {
+    font-size: 1.7rem;
+  }
 
-    .tinyInput,
-    .largeInput {
-        height: 4rem;
-        width: 25rem;
-    }
+  .footerFlex {
+    display: block;
+    height: 135rem;
+  }
 
-    .footerInput {
-        width: 25rem;
-    }
+  #leftFooter {
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    #whiteBox h3 {
-        margin: 0;
-    }
+  #leftFooter h3 {
+    margin-top: 1rem;
+  }
 
-    #buttonContact {
-        width: 25rem;
-    }
+  .footerLeftFlex {
+    margin-bottom: 1rem;
+    width: 25rem;
+  }
 
-    #buttonContact input {
-        width: 25rem;
-        padding: 0;
-    }
+  .footerLeftFlex p,
+  .footerLeftFlex li,
+  footer h4,
+  footer h3 {
+    width: 25rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #whiteBox {
+    width: 35rem;
+  }
+
+  .footerLeftFlex a {
+    margin-bottom: 2rem;
+  }
+
+  .footerLeftFlex div {
+    padding-right: 0;
+  }
+
+  .surnameFlex {
+    display: block;
+  }
+
+  .tinyInput,
+  .largeInput {
+    height: 4rem;
+    width: 25rem;
+  }
+
+  .footerInput {
+    width: 25rem;
+  }
+
+  #whiteBox h3 {
+    margin: 0;
+  }
+
+  #buttonContact {
+    width: 25rem;
+  }
+
+  #buttonContact input {
+    width: 25rem;
+    padding: 0;
+  }
 }

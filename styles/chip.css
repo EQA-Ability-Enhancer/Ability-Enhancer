@@ -200,7 +200,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 110rem;
+  min-height: 110rem;
 }
 
 /* footer */

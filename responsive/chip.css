@@ -1,12 +1,17 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
   /* generic */
+  h2,
   h1 {
-    font-size: 5rem;
+    font-size: 3.2rem;
   }
 
-  h2 {
-    font-size: 4rem;
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h2,
+  h3 {
     max-width: 35rem;
   }
 
@@ -15,6 +20,7 @@
   }
 
   p {
+    font-size: 1.7rem;
     max-width: 35rem;
   }
 
@@ -28,6 +34,7 @@
   }
 
   .buttonBuy {
+    font-size: 1.7rem;
     padding: 1rem 1.5rem;
   }
 
@@ -129,16 +136,25 @@
 
   /* Unlock */
   #unlock {
-    height: 30rem;
+    min-height: 30rem;
   }
 
-  #unlock div {
-    margin-top: 5rem;
+  #unlock h2 {
+    margin-bottom: 5rem;
   }
 
   /* footer */
   footer {
     height: 135rem;
+  }
+
+  footer h3 {
+    font-size: 3.2rem;
+  }
+
+  footer p,
+  footer a {
+    font-size: 1.7rem;
   }
 
   .footerFlex {
