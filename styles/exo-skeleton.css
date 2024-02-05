@@ -59,6 +59,92 @@ p {
   border-radius: 1rem;
 }
 
+/* menu deroulant */
+:root {
+  --hauteur-menu: 60px;
+}
+
+nav {
+  width: 100%;
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+}
+
+nav > ul {
+  display: flex;
+  text-align: center;
+  height: var(--hauteur-menu);
+}
+
+nav > ul > li {
+  position: relative;
+  height: 100%;
+  flex: 1;
+}
+
+nav > ul > li > a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-deroulant img {
+  width: 2rem;
+  margin-right: 0.8rem;
+}
+
+.menu-deroulant > a {
+  color: white;
+  display: flex;
+}
+
+ul > li > ul > li > a {
+  color: black;
+  padding-right: 2rem;
+}
+
+.sous-menu {
+  margin-top: var(--hauteur-menu);
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  max-height: 0;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.menu-deroulant:hover > .sous-menu {
+  animation: apparitionSousMenu 1s forwards;
+}
+
+@keyframes apparitionSousMenu {
+  0% {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0);
+  }
+  100% {
+    max-height: 50em;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.sous-menu > li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sous-menu > li > a {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.sous-menu > li:hover > a {
+  color: rgb(20, 88, 177);
+}
+
 /*Background du menu + menu*/
 header::before {
   content: "";
