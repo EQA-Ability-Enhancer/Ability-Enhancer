@@ -243,13 +243,13 @@ header {
   padding-bottom: 2rem;
 }
 
-#price{
+.price{
   font-size: 2.5rem;
   margin-top: 0.5rem;
   font-weight: 700;
 }
 
-#price:nth-last-child(){
+.price:nth-last-child(){
   font-size: 2.0rem;
   margin-top: 0.5rem;
   font-weight: 700;
