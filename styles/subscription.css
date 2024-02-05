@@ -292,30 +292,7 @@ header {
   margin-bottom: 2rem;;
 }
 
-.FAQ h3{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 3.8rem;
-  border-radius: 2rem 0rem 0rem 2rem;
-  padding: 3.2rem;
-  background-color: rgba(176, 185, 209, 0.30);
-}
-
 .FAQ summary{
-  list-style: url("../assets/img/");
-  cursor: pointer;
-  border-radius: 0rem 2rem 2rem 0rem;
-  padding: 3.2rem;
-  background-color: rgba(176, 185, 209, 0.30);
-}
-
-.flex-FAQ{
- display: flex;
-}
-
-/*  
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -323,9 +300,7 @@ header {
   border-radius: 2rem 2rem 2rem 2rem;
   padding: 3.2rem;
   background-color: rgba(176, 185, 209, 0.30);
-  cursor: pointer;
-
-*/
+}
 
 .FAQ details[open] summary{
   border-radius: 2rem 2rem 0rem 0rem;
