@@ -248,7 +248,7 @@ header {
 
 /* Chip */
 #chip {
-  background-image: url(/assets/img/Puce.png);
+  background-image: url(/assets/img/Puce.webp);
   display: flex;
   align-items: center;
 }
