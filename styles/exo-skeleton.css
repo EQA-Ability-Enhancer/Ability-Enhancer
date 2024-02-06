@@ -157,17 +157,53 @@ header::before {
 }
 
 header {
-  height: 6rem;
   position: sticky;
   top: 0;
   left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  font-size: 2rem;
+  padding: 4rem 6rem;
+  color: white;
+  height: 6rem;
   margin: 0 auto;
   align-items: center;
   max-width: 190.5rem;
-  z-index: 100;
+  backdrop-filter: blur(0.8rem);
+}
+
+header nav {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.6rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+header nav .animationNav::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  margin-bottom: -0.5rem;
+}
+
+header nav .animationNav:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .icon {
