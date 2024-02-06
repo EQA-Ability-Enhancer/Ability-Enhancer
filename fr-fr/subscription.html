@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/styles/subscription.css">
-        <link rel="stylesheet" href="/responsive/subscription.css">
-        <link rel="icon" type="image/x-icon" href="/assets/img/Favicon.svg">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap" rel="stylesheet">
-        <title>Abonnements</title>
-    </head>
-    <body>
-        <header>
-          <a href="./index.html"><img class="image-menu-logo" src="../assets/img/Logo-Nav.svg" alt="Logo EQA"></a>
-          <input type="checkbox" id="check">
-          <label for="check" class="icon">
-            <svg id="open-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-            <svg id="close-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(253, 252, 252, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
-          </label>
-          <nav class="menu-list">
-            <a href="/fr-fr/chip.html">Puce</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/subscription.css" />
+    <link rel="stylesheet" href="/responsive/subscription.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/Favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <title>Abonnements</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"
+        ><img
+          class="image-menu-logo"
+          src="../assets/img/Logo-Nav.svg"
+          alt="Logo EQA"
+      /></a>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icon">
+        <svg
+          id="open-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: rgba(255, 255, 255, 1)"
+        >
+          <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+        </svg>
+        <svg
+          id="close-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: rgba(253, 252, 252, 1)"
+        >
+          <path
+            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+          ></path>
+        </svg>
+      </label>
+      <nav class="menu-list">
+        <a href="/fr-fr/chip.html">Puce</a>
         <a href="/fr-fr/exo-skeleton.html">Exo-Squelette</a>
         <a href="/fr-fr/subscription.html">Abonnements</a>
         <ul>
@@ -42,12 +70,12 @@
             alt="Shopping"
           />
         </a>
-            <a href="/loginregister.html">
-              <img class="arrow-down" src="../assets/img/VectorBas-lien.svg" alt="Arrow down">
-              <img class="width-logo-nav" src="../assets/img/customer/profil user.svg" alt="profil user">
-            </a>
-          </nav>
-        </header>
+        <a href="/loginregister.html">
+          <img class="arrow-down" src="../assets/img/VectorBas-lien.svg" alt="Arrow down">
+          <img class="width-logo-nav" src="../assets/img/customer/profil user.svg" alt="profil user">
+        </a>
+      </nav>
+    </header>
         <!--FreeTrail-->
         <main class="container">
             <section class="flex-freetrail">
@@ -225,75 +253,167 @@
                     type="text"
                     placeholder="John"
                   />
-                </div>
-                <div>
-                  <h4 class="blackText">Nom de famille</h4>
+                </summary>
+              </div>
+              <div class="click-plus-faq">
+                <p class="text-faq">
+                  We accept all major credit cards, including Visa, Mastercard,
+                  and American Express.
+                </p>
+              </div>
+            </details>
+          </article>
+          <article class="container-faq">
+            <div class="title-faq">
+              <h3>Puis-je annuler mon abonnement à tout moment ?</h3>
+              <img
+                class="image-faq"
+                src="../assets/img/photoWrapper.svg"
+                alt="Little plus"
+              />
+            </div>
+            <details class="click-plus-faq">
+              <p class="text-faq">
+                Yes, you can cancel your subscription at any time. There are no
+                long-term commitments or cancellation fees.
+              </p>
+            </details>
+          </article>
+          <article class="container-faq">
+            <div class="title-faq">
+              <h3>Où puis-je obtenir ça ?</h3>
+              <img
+                class="image-faq"
+                src="../assets/img/photoWrapper.svg"
+                alt="Little plus"
+              />
+            </div>
+            <details class="click-plus-faq">
+              <p class="text-faq">
+                You can buy our products from our official website, once the
+                order is confirmed we will sent you a email with a date and
+                location where you can come and install it.
+              </p>
+            </details>
+          </article>
+          <article class="container-faq">
+            <div class="title-faq">
+              <h3>Existe-t-il un essai gratuit disponible ?</h3>
+              <img
+                class="image-faq"
+                src="../assets/img/photoWrapper.svg"
+                alt="Little plus"
+              />
+            </div>
+            <details class="click-plus-faq">
+              <p class="text-faq">
+                Yes, we offer a 6-months free trial for new subscribers. You can
+                try out our service and decide if it's right for you.
+              </p>
+            </details>
+          </article>
+          <article class="container-faq">
+            <div class="title-faq">
+              <h3>Existe-t-il un essai gratuit disponible ?</h3>
+              <img
+                class="image-faq"
+                src="../assets/img/photoWrapper.svg"
+                alt="Little plus"
+              />
+            </div>
+            <details class="click-plus-faq">
+              <p class="text-faq">
+                Yes, we offer a 6-months free trial for new subscribers. You can
+                try out our service and decide if it's right for you.
+              </p>
+            </details>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footerFlex">
+        <section id="whiteBox" class="blackText">
+          <div>
+            <h3 class="blackText">Entrer en contact</h3>
+          </div>
+          <div class="surnameFlex">
+            <div>
+              <h4 class="blackText">Nom</h4>
+              <input
+                class="tinyInput footerInput"
+                type="text"
+                placeholder="John"
+              />
+            </div>
+            <div>
+              <h4 class="blackText">Nom de famille</h4>
               <input
                 class="tinyInput footerInput"
                 type="text"
                 placeholder="Biche"
               />
-                </div>
-              </div>
-              <div>
-                <h4 class="blackText">Mail</h4>
-                <input
-                  class="largeInput footerInput"
-                  type="email"
-                  placeholder="johnbiche@mail.net"
-                />
-              </div>
-              <div>
-                <h4 class="blackText">Message</h4>
-                <textarea class="footerInput" rows="6" cols="43"></textarea>
-              </div>
-              <div id="buttonContact">
-                <input type="submit" value="Soumettre" />
-              </div>
-            </section>
-            <section id="leftFooter">
-              <div>
-                <h3>Contacter EQA</h3>
-              </div>
-              <div class="footerLeftFlex">
-                <div>
-                  <h4>Telephone</h4>
-                  <p>+1 123-456-7890</p>
-                </div>
-                <div>
-                  <h4>Email</h4>
-                  <p>info@eqa.com</p>
-                </div>
-                <div>
-                  <h4>Addresse</h4>
-                  <p>123 Main St, City, State, Country</p>
-                </div>
-              </div>
-              <div class="footerLeftFlex">
-                <div>
-                  <p>
-                    © EQA 2024<br />
-                    <br />
-                    Les exosquelettes et puces présentés dans les images peuvent
-                    différer des modèles de série.
-                  </p>
-                </div>
-                <div>
-                  <ul>
-                    <li><a href="#">Puce</a></li>
-                    <li><a href="#">Exo-Squelette</a></li>
-                    <li><a href="#">Abonnement</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <ul>
-                    <li><a href="#">Politique de confidentialité</a></li>
-                    <li><a href="#">Cookies</a>n</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
+            </div>
           </div>
-        </footer>
-    </body>
+          <div>
+            <h4 class="blackText">Mail</h4>
+            <input
+              class="largeInput footerInput"
+              type="email"
+              placeholder="johnbiche@mail.net"
+            />
+          </div>
+          <div>
+            <h4 class="blackText">Message</h4>
+            <textarea class="footerInput" rows="6" cols="43"></textarea>
+          </div>
+          <div id="buttonContact">
+            <input type="submit" value="Soumettre" />
+          </div>
+        </section>
+        <section id="leftFooter">
+          <div>
+            <h3>Contacter EQA</h3>
+          </div>
+          <div class="footerLeftFlex">
+            <div>
+              <h4>Telephone</h4>
+              <p>+1 123-456-7890</p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>info@eqa.com</p>
+            </div>
+            <div>
+              <h4>Addresse</h4>
+              <p>123 Main St, City, State, Country</p>
+            </div>
+          </div>
+          <div class="footerLeftFlex">
+            <div>
+              <p>
+                © EQA 2024<br />
+                <br />
+                Les exosquelettes et puces présentés dans les images peuvent
+                différer des modèles de série.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Puce</a></li>
+                <li><a href="#">Exo-Squelette</a></li>
+                <li><a href="#">Abonnement</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Cookies</a>n</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
