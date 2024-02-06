@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap");
-
 /*Reset CSS*/
 * {
   font-size: 62.5%;
@@ -54,6 +52,7 @@ p {
 .buttonBuy {
   padding: 2.4rem 11rem 2.6rem 11rem;
   background-color: #32eba1;
+  color: #222;
   font-size: 2.4rem;
   font-weight: 700;
   border-radius: 1rem;
@@ -248,7 +247,7 @@ header {
 
 /* Chip */
 #chip {
-  background-image: url(/assets/img/Puce.png);
+  background-image: url(/assets/img/Puce.webp);
   display: flex;
   align-items: center;
 }
