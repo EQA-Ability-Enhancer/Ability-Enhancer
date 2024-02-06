@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url(../assets/img/BuildingBlades.jpg);
+  background-image: url(../assets/img/BuildingBlades.webp);
   background-size: cover;
   background-position: 0px -5rem;
   display: flex;
@@ -49,18 +49,21 @@ header nav a {
   text-decoration: none;
   position: relative;
 }
-header nav a::before {
+header nav .animationNav::before {
   content: "";
   position: absolute;
-  bottom: -0.5rem;
-  left: 0;
-  background-color: white;
-  width: 0%;
-  height: 2.5px;
-  transition: 0.3s;
-}
-header nav a:hover::before {
   width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+header nav .animationNav:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .Form-box {
   position: relative;
