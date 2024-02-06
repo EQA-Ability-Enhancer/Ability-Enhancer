@@ -227,6 +227,8 @@ header {
 /* The Future Is Here */
 #future {
   background-image: url(/assets/img/BuildingBlades.webp);
+  background-size: 265rem 300rem;
+  background-position: 0 -20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
