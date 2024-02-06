@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Michroma&display=swap');
-
-
 /*Reset CSS*/
-*{
+* {
   font-size: 62.5%;
   box-sizing: border-box;
   margin: 0rem;
@@ -11,96 +8,102 @@
   list-style: none;
 }
 
-
 /* generic */
 html {
   max-width: 108rem;
   margin: 0rem auto;
-  background: rgb(0,14,51);
-  background-color: linear-gradient(180deg, rgba(0,14,51,1) 0%, rgba(0,14,51,0.97) 34%, rgba(0,14,51,0.94) 56%, rgba(0,14,51,0.88) 76%, rgba(0,14,51,0.71) 100%);
+  background: rgb(0, 14, 51);
+  background-color: linear-gradient(
+    180deg,
+    rgba(0, 14, 51, 1) 0%,
+    rgba(0, 14, 51, 0.97) 34%,
+    rgba(0, 14, 51, 0.94) 56%,
+    rgba(0, 14, 51, 0.88) 76%,
+    rgba(0, 14, 51, 0.71) 100%
+  );
 }
-  
-h1,h2,h3,h4,a,input {
+
+h1,
+h2,
+h3,
+h4,
+a,
+input {
   font-family: "Maven Pro", sans-serif;
   font-size: 2rem;
 }
 
-input{
+input {
   font-family: "Maven Pro", sans-serif;
   color: black;
   font-size: 2rem;
 }
-  
-p,label {
+
+p,
+label {
   font-family: "Michroma", sans-serif;
   font-size: 2rem;
 }
 
-form{
+form {
   background-color: white;
   border-radius: 2.5rem;
   padding: 6.1rem 3.8rem;
 }
 
 /* Payment */
-.Hname{
- margin: 2rem;
+.Hname {
+  margin: 2rem;
 }
 
-#expiry{
-
+#expiry {
 }
 
-#cardNumber{
-
+#cardNumber {
 }
 
-#Cvv{
-
+#Cvv {
 }
 
-
-.payment{
+.payment {
   display: flex;
-  border: .1rem solid black;
-  border-radius: .8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.8rem;
   padding: 2.8rem 3.2rem;
 }
 
-.flex-card{
+.flex-card {
   flex-direction: column;
 }
 
-.flex-radio{
+.flex-radio {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.holder-flex{
+.holder-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.payment-other{
+.payment-other {
   display: flex;
   justify-content: space-between;
-  border: .1rem solid black;
-  border-radius: .8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.8rem;
   padding: 2.8rem 3.2rem;
   margin: 2.1rem 0rem;
 }
 
-.Back{
-
+.Back {
 }
 
-.Next{
-
+.Next {
 }
 
-.flex-End{
+.flex-End {
   display: flex;
   justify-content: space-between;
 }
