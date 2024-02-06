@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Login page EQA-AbilityEnhancer" />
@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="./styles/loginregister.css" rel="stylesheet" />
+    <link href="/styles/loginregister.css" rel="stylesheet" />
     <link rel="stylesheet" href="/responsive/loginregister.css" />
     <title>EQA</title>
   </head>
@@ -52,13 +52,13 @@
       </svg>
     </label>
     <nav class="menu-list">
-      <a class="animationNav" href="./chip.html">Chip</a>
-      <a class="animationNav" href="./exo-skeleton.html">Exo-Skeleton</a>
-      <a class="animationNav" href="./subscription.html">Subscription</a>
+      <a class="animationNav" href="/fr-fr/chip.html">Puce</a>
+      <a class="animationNav" href="/fr-fr/exo-skeleton.html">Exo-Squelette</a>
+      <a class="animationNav" href="/fr-fr/subscription.html">Abonnements</a>
       <ul>
         <li class="menu-deroulant">
           <a href="#">
-            <img src="/assets/img/languages.svg" alt="English" /> Language
+            <img src="/assets/img/languages.svg" alt="English" /> Langage
           </a>
           <ul class="sous-menu">
             <li><a href="/loginregister.html">English</a></li>
@@ -73,7 +73,7 @@
           alt="Shopping"
         />
       </a>
-      <a href="./loginregister.html">
+      <a href="/fr-fr/loginregister.html">
         <img
           class="arrow-down"
           src="../assets/img/VectorBas-lien.svg"
@@ -90,7 +90,7 @@
   <body>
     <div class="Form-box">
       <form class="Login-form">
-        <h1>Login</h1>
+        <h1>Connexion</h1>
         <div class="input-box">
           <input type="text" required />
           <label>Email</label>
@@ -98,24 +98,24 @@
         </div>
         <div class="input-box">
           <input type="password" required />
-          <label>Password</label>
+          <label>Mot de passe</label>
           <ion-icon name="lock-closed-outline"></ion-icon>
         </div>
         <div class="checkbox">
           <span>
             <input type="checkbox" id="login-checkbox" />
-            <label for="login-checkbox">Remember Me</label>
+            <label for="login-checkbox">Souviens-toi de moi</label>
           </span>
-          <h5>Forget password ?</h5>
+          <h5>Mot de passe oublié ?</h5>
         </div>
-        <button type="submit" class="submit-btn">Submit</button>
-        <h5 class="Register-btn">Dont have an account ? Register</h5>
+        <button type="submit" class="submit-btn">Envoyer</button>
+        <h5 class="Register-btn">Pas encore de compte ? Inscription</h5>
       </form>
       <form class="Register-form">
-        <h1>Register</h1>
+        <h1>Inscription</h1>
         <div class="input-box">
           <input type="text" required />
-          <label>Username</label>
+          <label>Pseudo</label>
           <ion-icon name="person-outline"></ion-icon>
         </div>
         <div class="input-box">
@@ -125,17 +125,17 @@
         </div>
         <div class="input-box">
           <input type="password" required />
-          <label>Password</label>
+          <label>Mot de passe</label>
           <ion-icon name="lock-closed-outline"></ion-icon>
         </div>
         <div class="checkbox">
           <input type="checkbox" id="register-checkbox" />
           <label for="register-checkbox"
-            >I agree to the terms and conditions</label
+            >J'accepte les termes et conditions</label
           >
         </div>
-        <button type="submit" class="submit-btn">Submit</button>
-        <h5 class="Login-btn">Register before ? Login</h5>
+        <button type="submit" class="submit-btn">Envoyer</button>
+        <h5 class="Login-btn">Déjà enregistré ? Connexion</h5>
       </form>
     </div>
     <script
