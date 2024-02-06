@@ -52,18 +52,6 @@ form {
 }
 
 /* Payment */
-.Hname {
-  margin: 2rem;
-}
-
-#expiry {
-}
-
-#cardNumber {
-}
-
-#Cvv {
-}
 
 .payment {
   display: flex;
@@ -97,13 +85,47 @@ form {
   margin: 2.1rem 0rem;
 }
 
-.Back {
-}
-
-.Next {
-}
-
 .flex-End {
   display: flex;
   justify-content: space-between;
+}
+
+.back {
+  background-color: #ffffff; /* Green */
+  border: none;
+  border-radius: 0.8rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 2px;
+  margin-right: 2rem;
+}
+
+.next {
+  background-color: #020246; /* Green */
+  border: none;
+  border-radius: 0.8rem;
+  width: 19rem;
+  height: 5.7rem;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 2px;
+  cursor: pointer;
+}
+
+.next a {
+  color: white;
+}
+
+.back a {
+  color: rgb(0, 0, 0);
+}
+
+.back:hover {
+  background-color: rgb(192, 192, 192);
 }
