@@ -20,11 +20,10 @@
   <body>
     <main>
       <form>
-        <section class="payment flex-card">
+        <section class="payment flex-card select">
           <div class="flex-radio container">
             <div>
-              <label for="masterCard">Pay with Credit Card</label>
-              <input type="radio" name="masterCard" id="mastercard" />
+              <h2>Pay with Credit Card</h2>
             </div>
             <div>
               <img
@@ -69,20 +68,18 @@
             </div>
           </div>
         </section>
-        <section class="payment-other">
+        <section class="payment-other select">
           <div>
-            <label for="applePay">Apple Pay</label>
-            <input type="radio" name="applePay" id="applepay" />
+            <h2>Apple Pay</h2>
             <p>Unlimited users and unlimited individual data.</p>
           </div>
           <img
             src="./assets/img/payment/Payment-Apple.svg"
             alt="Payment Apple" />
         </section>
-        <section class="payment-other">
+        <section class="payment-other select">
           <div>
-            <label for="paypal">Paypal</label>
-            <input type="radio" name="paypal" id="paypalpayment" />
+            <h2>Paypal</h2>
             <p>
               You will be redirected to the PayPal website after submitting your
               order
@@ -92,8 +89,7 @@
             src="./assets/img/payment/Payment-Paypal.svg"
             alt="Payment Paypal" />
         </section>
-        <div></div>
-        <div>
+        <div class="flex-protected">
           <img src="./assets/img/payment/Secure Icon.svg" alt="Icon Secure" />
           <p>
             We protect your payment information using encryption to provide

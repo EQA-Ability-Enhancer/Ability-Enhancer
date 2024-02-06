@@ -27,8 +27,7 @@ h1,
 h2,
 h3,
 h4,
-a,
-input {
+a {
   font-family: "Maven Pro", sans-serif;
   font-size: 2rem;
 }
@@ -128,4 +127,17 @@ form {
 
 .back:hover {
   background-color: rgb(192, 192, 192);
+}
+
+.flex-protected{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.flex-protected img{
+  margin-right: 1rem;
+}
+
+.flex-protected p{
+  font-size: 1.5rem;
 }
