@@ -227,7 +227,7 @@ header {
 
 /* The Future Is Here */
 #future {
-  background-image: url(/assets/img/BuildingBlades.jpg);
+  background-image: url(/assets/img/BuildingBlades.webp);
   display: flex;
   flex-direction: column;
   justify-content: center;
