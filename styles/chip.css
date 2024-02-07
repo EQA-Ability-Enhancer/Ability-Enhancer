@@ -244,11 +244,6 @@ header nav .animationNav:hover::before {
   width: 2.2rem;
 }
 
-.arrow-down {
-  padding-bottom: 0.8rem;
-  padding-left: 0.3rem;
-}
-
 .image-menu-logo {
   width: 3rem;
   margin-left: 2rem;

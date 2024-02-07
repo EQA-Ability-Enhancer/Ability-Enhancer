@@ -105,10 +105,10 @@ form {
   border: none;
   border-radius: 0.8rem;
   color: white;
-  padding: 15px 32px;
+  padding: 1.5rem 3.2rem;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 2px;
   margin-right: 2rem;
@@ -120,10 +120,10 @@ form {
   border-radius: 0.8rem;
   width: 19rem;
   height: 5.7rem;
-  padding: 15px 32px;
+  padding: 1.5rem 3.2rem;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 2px;
   cursor: pointer;
 }
